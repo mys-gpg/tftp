@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <pcap.h>
-#include <netint/ip.h>
+#include <netinet/ip.h>
 #include <stdio.h>
+#include <fcntl.h>
 #include <string.h>
 #include "tftp_types.h"
 
